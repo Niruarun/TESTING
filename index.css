@@ -144,6 +144,7 @@ body::-webkit-scrollbar{
 #profilePage{ 
     height: 3px;  
     border-radius: 10px; 
+    border: none;
     background-image: linear-gradient(to right, #8A2BE2, #FF1493, #00BFFF); 
     box-shadow: 
     0px 0px 10px #8A2BE2,  
@@ -584,6 +585,8 @@ a:hover {
   }
 }
 
+/* Primary Media Query ! */
+
 @media screen and (min-width: 320px) and (max-width: 480px){
   #fullName{  
     font-size: 45px; 
@@ -628,7 +631,73 @@ a:hover {
   height: 370px;  
   margin: -50% 0% 0% 42%;     
   }
+  #profileDiv{
+    height: 700px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 30px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 300px;
+}
+#profile{
+    font-size: 15px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -20% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 40px;
+    height: 50px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+/* Secondary Media Query ! */
+@media screen and (min-width: 400px) and (max-width: 480px){
+  .dp{
+    width: 230px;
+    height: 370px;  
+    margin: -50% 0% 0% 47%;     
+    }
+    #Qt::after{
+      margin-left: 350px;
+    }
+
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
 
 @media screen and (min-width: 481px) and (max-width: 506px){
   #fullName{  
@@ -673,6 +742,54 @@ a:hover {
   width: 200px;
   height: 350px;  
   margin: -50% 0% 0% 55%;     
+  }
+  #profileDiv{
+    height: 700px;  
+}
+#profileContent > h1{
+     text-align: center;
+     font-size: 30px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 400px;
+}
+#profile{
+    font-size: 15px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -20% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 40px;
+    height: 50px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
   }
 }
 
@@ -720,6 +837,54 @@ a:hover {
   height: 350px;  
   margin: -50% 0% 0% 56%;     
   }
+  #profileDiv{
+    height: 700px;  
+}
+#profileContent > h1{
+     text-align: center;
+     font-size: 30px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 400px;
+}
+#profile{
+    font-size: 15px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -20% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 40px;
+    height: 50px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
 }
 
 @media screen and (min-width: 546px) and (max-width: 579px){
@@ -765,6 +930,54 @@ a:hover {
   width: 240px;
   height: 380px;  
   margin: -50% 0% 0% 53%;     
+  }
+  #profileDiv{
+    height: 700px;  
+}
+#profileContent > h1{
+     text-align: center;
+     font-size: 30px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 500px;
+}
+#profile{
+    font-size: 15px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -20% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 40px;
+    height: 50px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
   }
 }
 
@@ -812,6 +1025,55 @@ a:hover {
   height: 380px;  
   margin: -50% 0% 0% 55%;     
   }
+  #profileDiv{
+    height: 700px;  
+}
+#profileContent > h1{
+     text-align: center;
+     font-size: 35px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 500px;
+}
+#profile{
+    font-size: 16px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -20% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 40px;
+    height: 50px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+
 }
 
 @media screen and (min-width: 608px) and (max-width: 715px){
@@ -858,7 +1120,70 @@ a:hover {
   height: 360px;  
   margin: -40% 0% 0% 55%;     
   }
+  #profileDiv{
+    height: 700px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 35px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 550px;
+}
+#profile{
+    font-size: 16px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -20% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 60px;
+    height: 50px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+/* Secondary Media Query ! */
+@media screen and (min-width: 680px) and (max-width: 715px){
+  
+    #Qt::after{
+      margin-left: 600px;
+    }
+    .logo-area {
+      margin: 2% 0% -10% 3%;
+    }
+
+}
+
+
+/* --------------------------------------------------------------------- */
 
 @media screen and (min-width: 716px) and (max-width: 850px){
   #fullName{  
@@ -904,7 +1229,72 @@ a:hover {
   height: 380px;  
   margin: -35% 0% 0% 60%;     
   }
+  #profileDiv{
+    height: 700px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 40px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 600px;
+}
+#profile{
+    font-size: 18px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -5% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 70px;
+    height: 60px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+/* Secondary Media Query ! */
+@media screen and (min-width: 770px) and (max-width: 850px){
+  
+  #Qt::after{
+    margin-left: 700px;
+  }
+  .logo-area {
+    margin: 2% 0% -10% 3%;
+  }
+
+}
+
+
+/* --------------------------------------------------------------------- */
+
+
 
 @media screen and (min-width: 851px) and (max-width: 1024px){
   #fullName{  
@@ -950,7 +1340,71 @@ a:hover {
   height: 420px;  
   margin: -25% 0% 0% 62%;     
   }
+  #profileDiv{
+    height: 700px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 40px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 750px;
+}
+#profile{
+    font-size: 18px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -5% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 70px;
+    height: 60px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+/* Secondary Media Query ! */
+@media screen and (min-width: 930px) and (max-width: 1024px){
+  
+  #Qt::after{
+    margin-left: 850px;
+  }
+  .logo-area {
+    margin: 2% 0% -5% 3%;
+  }
+
+}
+
+
+/* --------------------------------------------------------------------- */
+
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
   #fullName{  
@@ -996,7 +1450,71 @@ a:hover {
   height: 600px;  
   margin: -40% 0% 0% 65%;     
   }
+  #profileDiv{
+    height: 700px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 45px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -140px;
+}
+#Qt::after{
+  margin-left: 950px;
+}
+#profile{
+    font-size: 20px;
+    padding: 0px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -5% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 80px;
+    height: 70px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+/* Secondary Media Query ! */
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+  
+  #Qt::after{
+    margin-left: 1000px;
+  }
+  .logo-area {
+    margin: 2% 0% -5% 3%;
+  }
+
+}
+
+
+/* --------------------------------------------------------------------- */
+
 
 @media screen and (min-width: 1201px) and (max-width: 1440px){
   #fullName{  
@@ -1042,7 +1560,70 @@ a:hover {
   height: 600px;  
   margin: -35% 0% 0% 62%;     
   }
+  #profileDiv{
+    height: 800px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 50px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -80px;
+}
+#Qt::after{
+  margin-left: 1100px;
+}
+#profile{
+    font-size: 23px;
+    padding: 50px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -5% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 90px;
+    height: 80px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+/* Secondary Media Query ! */
+@media screen and (min-width: 1300px) and (max-width: 1440px){
+  
+  #Qt::after{
+    margin-left: 1230px;
+  }
+  .logo-area {
+    margin: 2% 0% -5% 3%;
+  }
+
+}
+
+
+/* --------------------------------------------------------------------- */
 
 @media screen and (min-width: 1401px) and (max-width: 1519px){
   #fullName{  
@@ -1087,6 +1668,54 @@ a:hover {
   width: 450px;
   height: 600px;  
   margin: -32% 0% 0% 62%;     
+  }
+  #profileDiv{
+    height: 800px;  
+}
+#profileContent > h1{
+     text-align: center;
+     font-size: 55px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -80px;
+}
+#Qt::after{
+  margin-left: 1300px;
+}
+#profile{
+    font-size: 25px;
+    padding: 50px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -5% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 90px;
+    height: 80px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
   }
 }
 
@@ -1134,5 +1763,56 @@ a:hover {
   height: 630px;  
   margin: -35% 0% 0% 67%;     
   }
+  #profileDiv{
+    height: 800px;  
 }
+#profileContent > h1{
+     text-align: center;
+     font-size: 55px; 
+     margin: 2% 0% 5% 0%;  
+     font-weight: lighter;
+     letter-spacing: 8px;
+}
+#Qt{
+    font-size: 5em;
+    font-family: 'Work Sans',sans-serif;
+    color: gold;
+    font-weight: 400;
+    margin: 0px 0px 0px -80px;
+}
+#Qt::after{
+  margin-left: 1400px;
+}
+#profile{
+    font-size: 25px;
+    padding: 50px 30px 0px 40px;
+    margin: -5% 0% 0% 0%;
+}
+/* Logo Section */
+.logo-area {
+    margin: 2% 0% -5% 3%;
+    width: 80%;
+  }
+
+  /* Logo Effects */
+  .logo {
+    width: 90px;
+    height: 80px;
+  }
+  #spring{
+    display: none;
+  }
+  #hib{
+    margin-right: -20px;
+    width: 140px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
+  }
+}
+
+
+
 
