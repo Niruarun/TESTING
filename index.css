@@ -584,7 +584,51 @@ a:hover {
   }
 }
 
-
+@media screen and (max-width: 480px){
+  #fullName{  
+    font-size: 45px; 
+    font-weight: 100;
+    margin-left: 20px;
+  }
+  #secondName{
+    font-weight: 100;
+    color: gray;
+  }
+  #subtitle{
+    font-size: 15px;  
+    font-weight: lighter; 
+    letter-spacing: 12px;  
+    margin: -15px 0px 10px 0px;
+    margin-left: 20px; 
+  }
+  #Qualification > #sub1{ 
+    font-weight: 100;
+    font-size: 15px ;  
+    margin: 1% 0% 0% 0%;  
+    margin-left: 20px;  
+  }
+  .nav{
+    margin: 150px 0px 0px 20px;  
+  }
+  .nav a{ 
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;  
+  }
+  .nav a::before{
+    height: 30px;  
+  }
+  .nav a:hover::before {
+    width: 180px;  
+  }
+  .dp{
+  width: 200px;
+  height: 350px;  
+  margin: -50% 0% 0% 55%;     
+  }
+}
 
 @media screen and (min-width: 481px) and (max-width: 506px){
   #fullName{  
@@ -1088,7 +1132,7 @@ a:hover {
   .dp{
   width: 500px;
   height: 630px;  
-  margin: -30% 0% 0% 67%;     
+  margin: -35% 0% 0% 67%;     
   }
 }
 
