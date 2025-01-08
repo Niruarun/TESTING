@@ -3,6 +3,7 @@
     <head>
         <title>My Portfolio</title>
         <link href="index.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div>
@@ -13,13 +14,162 @@
             </div>
         </div>
         <div class="nav">
-                <a href="#" id="link1"> &nbsp;Profile & Skills </a><br>
-                <a href="#" id="link2"> &nbsp;Experience </a><br>
-                <a href="#" id="link3"> &nbsp;Projects & Cerifications </a><br>
-                <a href="#" id="link4"> &nbsp;Personal Bio-Data </a><br>
+                <a href="#profilePage" id="link1"> &nbsp;Profile & Skills </a><br>
+                <a href="#experiencePage" id="link2"> &nbsp;Experience </a><br>
+                <a href="#projectPage" id="link3"> &nbsp;Projects & Cerifications </a><br>
+                <a href="#bioDataPage" id="link4"> &nbsp;Personal Bio-Data </a><br>
         </div>
-        <div class="dp">
-
+        <div class="dp"> </div>
+        <div id="profileDiv"> 
+            <hr id="profilePage">
+            <div id="profileContent">
+            <h1>Profile & Skills</h1>       
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q id="Qt">
+                <p id="profile">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proficient in <span>C, C++, Java, Python, JavaScript, HTMLS, CSS3, MySQL Database, Hibernate, Spring,</span> and <span>Data Structures and Algorithms</span>. Experienced in developing and maintaining web applications using modern web technologies and robust backend frameworks. Demonstrates strong problem-solving abilities and expertise in designing efficient, scalable solutions. Committed to continuous learning and applying best practices in software development.</p>
+                <section class="logo-area">
+                  <!-- Row 1 -->
+                  <div class="logo-row">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" class="logo hidden" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++" class="logo hidden" />
+                    <img src="https://www.clipartmax.com/png/full/151-1513418_java-hibernate-with-java-a-practical-approach.png" alt="Java" class="logo hidden" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="logo hidden" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" class="logo hidden" />
+                  </div>
+              
+                  <!-- Row 2 -->
+                  <div class="logo-row">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML5" class="logo hidden" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" class="logo hidden" />
+                    <img src="https://www.clipartmax.com/png/full/416-4168146_mysql-database.png" alt="MySQL" class="logo hidden" />
+                    <img id="hib" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Hibernate_logo_a.png" alt="Hibernate" class="logo hidden"/>
+                    <img id="spring" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" alt="Spring" class="logo hidden" />
+                  </div>
+                </section>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </q>
+          </div>
+        </div>
+        <div id="experienceDiv">
+            <hr id="experiencePage">
+            <div id="experienceContent">
+            <h1>Experience</h1>
+            <div class="timeline">
+                <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E0BAQF5y57BmnHARA/company-logo_200_200/company-logo_200_200/0/1663955300436/ags_health_logo?e=2147483647&v=beta&t=048-RjwJgCztYY3Utzl1wtAS2C_X5QFr8QW-al-NVRQ" alt="Company Logo" class="logo1">
+                    <h3>Medical Coder | Process Associate</h3>
+                    <p><b>AGS Healthcare | 2022 - 23 </b></p>
+                    <p>Experienced in medical coding, record analysis, and medical billing, with expertise in ITES tools like Citrix, Salesforce, and Epic. Led a project for six months, enhancing production and quality benchmarks.</p>
+                  </div>
+                </div>
+                <div class="timeline-item">  
+                  <div class="circle"></div>
+                  <div class="content">
+                    <img src="https://media.licdn.com/dms/image/v2/D560BAQEzckP-JismAQ/company-logo_200_200/company-logo_200_200/0/1688160706767/niitmts_logo?e=2147483647&v=beta&t=7UN2M8dqsE6v4t-9n2dQpWg2lxaKtFCgyIG8ged-Rgs" alt="Company Logo" class="logo1">
+                    <h3>Faculty | Lab-Tech</h3>
+                    <p><b>NIIT | 2024 - Current</b></p>
+                    <p>Teaching web and application development at NIIT, mentoring aspiring developers. Skilled in PC building, lab technology, and providing practical guidance in hardware and software domains.</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+        </div>
+        <div class="projectDiv">
+          <hr id="projectPage">
+          <div id="projectContent">
+          <h1>Projects & Cerifications</h1>
+          <div id = certTables>
+              <table cellspacing="0" cellpadding="20" width="80%" height="80" border="1">
+                <tr>
+                  <th style="font-size: 30px;">Certifications</th>
+                  <th style="font-size: 30px;">Projects</th>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: C, C++ & JAVA Programming</td>
+                  <td rowspan="3"><p style="text-align: center;font-weight: bold;">Movie Ticket Booking System:</p> <p style="text-align: center;">Developed a website using HTML5, CSS3, and JavaScript for dynamic behavior, with backend connectivity through PHP and MySQL.</p></td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: Data Structures & Algorithms</td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: JSP & Hibernate Implementation</td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: Spring in JAVA EE Applications</td>
+                  <td rowspan="3"><p style="text-align: center;font-weight: bold;">Tour Booking and Management (Java):</p><p style="text-align: center;"> Built a command-line application leveraging OOPS concepts, string manipulation, Java File Handling, MySQL, and JDBC API for database operations.</p></td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: Web development Plus</td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: Web-Applications with Servlets & JSP</td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: Relational DBMS & SQL-Server</td>
+                  <td rowspan="2"><p style="text-align: center;font-weight: bold;">Sonar Motion Alert System (loT, Arduino):</p> <p style="text-align: center;">Developed an IoT project using an Arduino UNO R3 microcontroller, servo motors, sonar sensors, and buzzers, connected via a breadboard. The system was programmed with embedded C++ to create a functional motion detection alert system.</p></td>
+                </tr>
+                <tr>
+                  <td id="Cert">GNIIT: Professional Skills - 1</td>
+                </tr>
+              </table>
+          </div>
+          </div>
+        </div>
+        <div class="bioDataDiv">
+            <hr id="bioDataPage">
+            <div id="bioDataContent">
+              <h1>Personal Bio-Data</h1>
+              <div class="container">
+                <!-- Personal Data -->
+                <div class="section personal-data">
+                  <h2>Personal Data</h2>
+                  <p><b>Full Name </b> :&nbsp;Niranjan Lakshmanan</p>
+                  <p><b>Age</b> :&nbsp;23</p>
+                  <p><b>Date of Birth</b> :&nbsp;July 03, 2001</p>
+                  <p><b>Gender</b> :&nbsp;Male</p>
+                  <p><b>Nationality</b> :&nbsp;Indian</p>
+                  <p><b>Languages</b> :&nbsp;English, Tamil</p>
+                </div>
+            
+                <!-- Contact Me -->
+                <div class="section contact">
+                  <div>
+                    <h2>Contact Me</h2>
+                    <p><b>Email</b> :&nbsp;<a href="mailto:Niranjan.Lakshmanan@outlook.com">Niranjan.Lakshmanan@outlook.com</a></p>
+                    <p><b>Email</b> :&nbsp;<a href="mailto:iloveegypt017@gmail.com">iloveegypt017@gmail.com</a></p>
+                    <p><b>Phone</b> :&nbsp;+91 93614 38911</p>
+                  </div>
+                  <div>
+                    <h2>Social Links</h2>
+                    <p><b>GitHub</b> :&nbsp;<a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
+                    <p><b>LinkedIn</b> :&nbsp;<a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+                  </div>
+                </div>
+            
+                <!-- Educational Qualification -->
+                <div class="section education">
+                  <div>
+                    <h2>High School</h2>
+                    <p><b>Institution</b> :&nbsp;ABC School</p>
+                    <p><b>Year</b> :&nbsp;2015</p>
+                    <p><b>Percentage</b> :&nbsp;85%</p>
+                  </div>
+                  <div>
+                    <h2>Higher Secondary</h2>
+                    <p><b>Institution</b> :&nbsp;XYZ School</p>
+                    <p><b>Year</b> :&nbsp;2017</p>
+                    <p><b>Percentage</b> :&nbsp;90%</p>
+                  </div>
+                  <div>
+                    <h2>Bachelor's Degree</h2>
+                    <p><b>Institution</b> :&nbsp;DEF College</p>
+                    <p><b>Year</b> :&nbsp;2020</p>
+                    <p><b>CGPA</b> :&nbsp;8.5</p>
+                  </div>
+                </div>
+              </div>
+              </div>
         </div>
     </body>
 </html>
