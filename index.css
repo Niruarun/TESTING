@@ -666,6 +666,11 @@ a:hover {
     animation: slideIn 1s 1.8s forwards;
   }
   #profile span{
+    text-shadow: 
+    0px 0px 10px #8A2BE2,  
+    0px 0px 100px #FF1493, 
+    0px 0px 360px #00BFFF; 
+    color: rgb(252, 163, 177);
     animation: slideIn 1s 1.8s forwards;
 }
   /* Logo Effects */
@@ -696,7 +701,7 @@ a:hover {
     letter-spacing: 8px;
 }
 .projectDiv{
-  height: 1690px;
+  height: 1500px;
 }
 #projectContent > h1{
   font-size: 30px ; 
@@ -802,7 +807,7 @@ a:hover {
       font-size: 13px; 
     }
     .projectDiv{
-      height: 1300px;
+      height: 1400px;
     }
 
 }
