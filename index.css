@@ -608,7 +608,7 @@ a:hover {
     margin-left: 10px;  
   }
   .nav{
-    margin: 150px 0px 0px 10px;  
+    margin: 150px 0px 0px 5px;  
   }
   .nav a{ 
     position: relative;
@@ -626,7 +626,7 @@ a:hover {
   .dp{
   width: 200px;
   height: 370px;  
-  margin: -50% 0% 0% 50%;     
+  margin: -50% 0% 0% 45%;     
   }
 }
 
