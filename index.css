@@ -725,7 +725,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1500px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -949,7 +949,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1400px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -1141,7 +1141,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1400px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -1321,7 +1321,7 @@ a:hover {
     font-size: 17px;
   }
   .bioDataDiv{
-    height: 950px;
+    height: 1400px;
   }
   #bioDataContent > h1{
     text-align: center;
@@ -1511,7 +1511,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1400px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -1701,7 +1701,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1400px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -1906,7 +1906,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1400px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -2113,7 +2113,7 @@ a:hover {
   font-size: 17px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1450px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -2320,7 +2320,7 @@ a:hover {
   font-size: 20px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1450px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -2522,7 +2522,7 @@ a:hover {
   font-size: 20px;
 }
 .bioDataDiv{
-  height: 950px;
+  height: 1500px;
 }
 #bioDataContent > h1{
   text-align: center;
@@ -2600,7 +2600,7 @@ a:hover {
 
 /* --------------------------------------------------------------------- */
 
-@media screen and (min-width: 1401px) and (max-width: 1519px){
+@media screen and (min-width: 1441px) and (max-width: 1519px){
   #fullName{  
     font-size: 60px; 
     font-weight: 100;
